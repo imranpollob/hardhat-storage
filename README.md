@@ -10,4 +10,6 @@ npx hardhat test
 REPORT_GAS=true npx hardhat test
 npx hardhat node
 npx hardhat run scripts/deploy.js
+
+ npx hardhat verify 0x4f8669d66b20e132b1958a1399670e689a47ae04 --network goerli
 ```
